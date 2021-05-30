@@ -4,9 +4,7 @@ import '../styles/App.css';
 const App = () => {
 
   let [count, setCount] = useState(0);
-  useEffect(()=>{
-    alert("cant edit it")
-  },[count==2])
+ 
 
   return (
     <div class="ball">
